@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+apps/web/.next/
+apps/web/out/
+apps/web/build/
+
+# Env files — NEVER commit these
+.env
+.env.local
+.env.*.local
+apps/web/.env
+apps/web/.env.local
+
+# Supabase local
+supabase/.branches/
+supabase/.temp/
+
+# Xcode
+apps/ios/*.xcworkspace/xcuserdata/
+apps/ios/*.xcodeproj/xcuserdata/
+apps/ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+apps/ios/DerivedData/
+apps/ios/*.ipa
+apps/ios/*.dSYM.zip
+apps/ios/*.dSYM
+apps/ios/Pods/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
