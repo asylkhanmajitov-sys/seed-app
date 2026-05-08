@@ -12,8 +12,9 @@ apps/web/build/
 .env
 .env.local
 .env.*.local
-apps/web/.env
-apps/web/.env.local
+**/.env
+**/.env.local
+**/.env.*.local
 
 # Supabase local
 supabase/.branches/
